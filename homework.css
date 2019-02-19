@@ -39,15 +39,18 @@ font-family: "Roboto Slab"
     font-size:19px;
     
 }
+
+
 .head a:hover{
     color:  #f56a6a;
 }
 #icons>li{
 float:left;
 list-style-type:none;
+margin-left:10px;
 }
 #icons>li>a:link{
-color:#3d4449;
+    color:#7f888f;
 text-decoration:none;
 }
 #icons>li>a:hover{
@@ -98,7 +101,7 @@ width:60%;
 }
 .image1>img{
     margin-left:70px;
-    width:590px;
+    width:480px;
     height:450px;
     padding-top:50px;
     border:1px solid white;
@@ -111,58 +114,170 @@ width:60%;
     margin-top:50px
 }
 .content2{
-    width:80%;
-    height:auto;
+    width:100%;
+    height:500px;
     display: flex;
+    display:flex;
+    flex-direction:column;
+}
+#a{
+    width:100%;
+    height:100px;
+    color:#3d4449; 
+  
 }
 #border3{
     width:180px;
     height:3px;
     background-color:#f56a6a;
     margin-top:-10px;
-    
-   
-}
+} 
 .secondPart{
-    width:80%;
-    height:2000px;
-   
+    width:100%;
+    height:400px;
+    display:flex;
+    flex-direction: row;
 }
-#leftIcon{
-    width:40%;
+.leftIcon{
+    width:50%;
+    height:400px;
+
 }
-.icon1{
+.rightIcon{
+    width:50%;
+    height:400px;
+}
+.topIcon{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction: row;
+}
+.bottomIcon{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction: row;
+}
+.leftText{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction: row;
+}
+.rightText{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction: row;
+}
+.kristalIcon{
+    width:113px;
+    height:113px;
     border:1px solid #7f888f;
-    width:110px;
-    height:110px;
-    margin-top:130px;
-    margin-left:-150px;
-    transform: rotate(45deg);
     display:flex;
     justify-content: center;
     align-items: center;
-  
-  
+    transform: rotate(45deg);
+    margin-top:40px;
+    margin-left:25px;
 }
 #kristal{
+    font-size:25px;
+    color:#f56a6a;;
     transform: rotate(-45deg);
-    color:#f56a6a;
-    font-size:50px;
-   
 }
-#topPart{
-display:flex;
-flex-direction: row;
-justify-content: space-between
-
+.kristalText{
+    margin-left:40px;
+    width:74%;
+    font-size:20px;
 }
-.iconText1{
-   margin-left:150px;
-   width:40%;
-   margin-top:80px;
-   font-size:20px;
+.kristalText p{
+    color:#7f888f;
 }
-.iconText1 p{
-    font-size:16px;
+.kristalText h1{
+    color:#3d4449;
 }
-
+.rocketIcon{
+    width:113px;
+    height:113px;
+    border:1px solid #7f888f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    margin-top:40px;
+    margin-left:25px;
+}
+#rocket{
+    font-size:25px;
+    color:#f56a6a;;
+    transform: rotate(-45deg);
+}
+.rocketText{
+    margin-left:40px;
+    width:74%;
+    font-size:19px;
+}
+.rocketText h1{
+    color:#3d4449;
+    
+}
+.rocketText p{
+    color:#7f888f;
+    
+}
+.planeIcon{
+    width:113px;
+    height:113px;
+    border:1px solid #7f888f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    margin-top:40px;
+    margin-left:25px;
+}
+.planeText{
+    margin-left:40px;
+    width:74%;
+    font-size:19px;
+}
+#plane{
+    font-size:25px;
+    color:#f56a6a;;
+    transform: rotate(-45deg);
+}
+.planeText h1{
+    color:#3d4449;
+}
+.planeText p{
+    color:#7f888f;
+}
+.signalIcon{
+    width:113px;
+    height:113px;
+    border:1px solid #7f888f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    margin-top:40px;
+    margin-left:25px;
+}
+.signalText{
+    margin-left:40px;
+    width:74%;
+    font-size:19px;
+}
+#signal{
+    font-size:25px;
+    color:#f56a6a;;
+    transform: rotate(-45deg);  
+}
+.signalText h1{
+    color:#3d4449;
+}
+.signalText p{
+    color:#7f888f;
+}
