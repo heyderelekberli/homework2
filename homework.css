@@ -94,7 +94,10 @@ width:60%;
     text-align: center;
     line-height: 50px;
     margin-top:20px;
-
+}
+#hi>div a:link{
+    text-decoration: none;
+    color:#f56a6a;
 }
 .image1{
     width:40%;
@@ -125,6 +128,10 @@ width:60%;
     height:100px;
     color:#3d4449; 
   
+}
+#a h1{
+    margin-top:30px;
+
 }
 #border3{
     width:180px;
@@ -183,7 +190,7 @@ width:60%;
     margin-left:25px;
 }
 #kristal{
-    font-size:25px;
+    font-size:35px;
     color:#f56a6a;;
     transform: rotate(-45deg);
 }
@@ -210,7 +217,7 @@ width:60%;
     margin-left:25px;
 }
 #rocket{
-    font-size:25px;
+    font-size:35px;
     color:#f56a6a;;
     transform: rotate(-45deg);
 }
@@ -244,7 +251,7 @@ width:60%;
     font-size:19px;
 }
 #plane{
-    font-size:25px;
+    font-size:35px;
     color:#f56a6a;;
     transform: rotate(-45deg);
 }
@@ -271,7 +278,7 @@ width:60%;
     font-size:19px;
 }
 #signal{
-    font-size:25px;
+    font-size:35px;
     color:#f56a6a;;
     transform: rotate(-45deg);  
 }
@@ -281,3 +288,410 @@ width:60%;
 .signalText p{
     color:#7f888f;
 }
+.part1{
+    width:100%;
+    height:180px;
+    display:flex;
+    flex-direction: column;
+}
+#border4{
+    width:100%;
+    height:1px;
+    background-color:#3d4449;
+    margin-top:50px
+}
+.content3{
+    width:100%;
+    height:2100px
+}
+#border5{
+    width:180px;
+    height:3px;
+    background-color:#f56a6a;
+    margin-top:-7px;
+}
+.part1 h1{
+margin-top:30px;
+color:#3d4449;
+}
+.part2{
+    width:100%;
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    border-bottom:1px solid #7f888f;
+    margin-top:-20px;
+}
+.leftPic{
+    width:50%;
+    height:600px;
+    border-right:1px solid #7f888f;
+    display:flex;
+    flex-direction: column;
+}
+.rightPic{
+    width:50%;
+    height:600px;
+    display:flex;
+    flex-direction: column;
+}
+.picArea{
+    width:93%;
+    height:350px;
+    border:1px solid white;
+    overflow: hidden;
+    border-radius:10px;
+
+}
+.picArea img:hover{
+    animation: pic1 0.5s linear 0s 1 alternate forwards;
+}
+.picArea img{
+    width:100%;
+    height:350px;
+  
+}
+@keyframes pic1{
+from{
+    transform:scale(1)
+}
+to{
+    transform:scale(1.1)
+}
+}
+
+.textArea{
+    width:93%;
+    height:250px;
+}
+.textArea h1{
+color:#3d4449;
+margin-top:30px;
+font-size: 20px;
+}
+.textArea p{
+    color:#7f888f;
+    font-size:19px
+}
+#button{
+    width:90px;
+    height:35px;
+    border:2px solid #f56a6a;
+    border-radius: 8px;
+    color: #f56a6a;
+    text-align: center;
+    line-height: 33px;
+    margin-top:30px;
+}
+#button a:link{
+    text-decoration: none;
+    color:#f56a6a;
+}
+
+.picArea1{
+    width:93%;
+    height:350px;
+    border:1px solid white;
+    margin-left:42px;
+    border-radius:10px;
+    overflow: hidden;
+}
+.picArea1 img:hover{
+    animation: pic2 0.5s linear 0s 1 alternate forwards;
+}
+.picArea1 img{
+    width:100%;
+    height:350px;
+  
+}
+@keyframes pic2{
+from{
+    transform:scale(1)
+}
+to{
+    transform:scale(1.1)
+}
+}
+.textArea1{
+    width:93%;
+    height:250px;
+    margin-left:42px;
+}
+.textArea1 h1{
+    color:#3d4449;
+    margin-top:30px;
+    font-size: 20px;
+    }
+    .textArea1 p{
+        color:#7f888f;
+        font-size:19px
+    }
+    #button1{
+        width:90px;
+        height:35px;
+        border:2px solid #f56a6a;
+        border-radius: 8px;
+        color: #f56a6a;
+        text-align: center;
+        line-height: 33px;
+        margin-top:30px;
+    
+    }
+    #button1 a:link{
+        text-decoration: none;
+        color:#f56a6a;
+    }
+    .part3{
+        width:100%;
+        height:630px;
+        display: flex;
+        flex-direction: row;
+        border-bottom:1px solid #7f888f;
+        margin-top:-20px;
+    }
+    .leftPic1{
+        width:50%;
+        height:630px;
+        border-right:1px solid #7f888f;
+        display:flex;
+        flex-direction: column;
+    }
+    .picArea2{
+        width:93%;
+        height:350px;
+        border:1px solid white;
+        overflow: hidden;
+        border-radius:10px;
+        margin-top:60px;
+    }
+    .picArea2 img:hover{
+        animation: pic3 0.5s linear 0s 1 alternate forwards;
+    }
+    .picArea2 img{
+        width:100%;
+        height:350px;
+      
+    }
+    @keyframes pic3{
+    from{
+        transform:scale(1)
+    }
+    to{
+        transform:scale(1.1)
+    }
+    }
+    .textArea2{
+        width:93%;
+        height:280px;
+    }
+    .textArea2 h1{
+    color:#3d4449;
+    margin-top:30px;
+    font-size: 20px;
+    }
+    .textArea2 p{
+        color:#7f888f;
+        font-size:19px
+    }
+    #button2{
+        width:90px;
+        height:35px;
+        border:2px solid #f56a6a;
+        border-radius: 8px;
+        color: #f56a6a;
+        text-align: center;
+        line-height: 33px;
+        margin-top:30px;
+        margin-bottom:20px;
+    }
+    #button2 a:link{
+        text-decoration: none;
+        color:#f56a6a;
+    }
+    .rightPic1{
+        width:50%;
+        height:630px;
+        display:flex;
+        flex-direction: column;
+    }
+    .picArea3{
+        width:93%;
+        height:350px;
+        border:1px solid white;
+        margin-left:42px;
+        border-radius:10px;
+        overflow: hidden;
+        margin-top:60px;
+    }
+    .picArea3 img:hover{
+        animation: pic4 0.5s linear 0s 1 alternate forwards;
+    }
+    .picArea3 img{
+        width:100%;
+        height:350px;
+      
+    }
+    @keyframes pic4{
+    from{
+        transform:scale(1)
+    }
+    to{
+        transform:scale(1.1)
+    }
+    }
+    .textArea3{
+        width:93%;
+        height:280px;
+        margin-left:42px;
+    }
+    .textArea3 h1{
+        color:#3d4449;
+        margin-top:30px;
+        font-size: 20px;
+        }
+        .textArea3 p{
+            color:#7f888f;
+            font-size:19px
+        }
+        #button3{
+            width:90px;
+            height:35px;
+            border:2px solid #f56a6a;
+            border-radius: 8px;
+            color: #f56a6a;
+            text-align: center;
+            line-height: 33px;
+            margin-top:30px;
+        
+        }
+        #button3 a:link{
+            text-decoration: none;
+            color:#f56a6a;
+        }
+        .part4{
+            width:100%;
+            height:630px;
+            display: flex;
+            flex-direction: row;
+            border-bottom:1px solid #7f888f;
+            margin-top:-20px;
+        }
+        .leftPic2{
+            width:50%;
+            height:630px;
+            border-right:1px solid #7f888f;
+            display:flex;
+            flex-direction: column;
+        }
+        .picArea4{
+            width:93%;
+            height:350px;
+            border:1px solid white;
+            overflow: hidden;
+            border-radius:10px;
+            margin-top:60px;
+        }
+        .picArea4 img:hover{
+            animation: pic4 0.5s linear 0s 1 alternate forwards;
+        }
+        .picArea4 img{
+            width:100%;
+            height:350px;
+          
+        }
+        @keyframes pic4{
+        from{
+            transform:scale(1)
+        }
+        to{
+            transform:scale(1.1)
+        }
+        }
+        .textArea4{
+            width:93%;
+            height:280px;
+        }
+        .textArea4 h1{
+        color:#3d4449;
+        margin-top:30px;
+        font-size: 20px;
+        }
+        .textArea4 p{
+            color:#7f888f;
+            font-size:19px
+        }
+        #button4{
+            width:90px;
+            height:35px;
+            border:2px solid #f56a6a;
+            border-radius: 8px;
+            color: #f56a6a;
+            text-align: center;
+            line-height: 33px;
+            margin-top:30px;
+            margin-bottom:20px;
+        }
+        #button4 a:link{
+            text-decoration: none;
+            color:#f56a6a;
+        }
+        .rightPic2{
+            width:50%;
+            height:630px;
+            display:flex;
+            flex-direction: column;
+        }
+        .picArea5{
+            width:93%;
+            height:350px;
+            border:1px solid white;
+            margin-left:42px;
+            border-radius:10px;
+            overflow: hidden;
+            margin-top:60px;
+        }
+        .picArea5 img:hover{
+            animation: pic5 0.5s linear 0s 1 alternate forwards;
+        }
+        .picArea5 img{
+            width:100%;
+            height:350px;
+          
+        }
+        @keyframes pic5{
+        from{
+            transform:scale(1)
+        }
+        to{
+            transform:scale(1.1)
+        }
+        }
+        .textArea5{
+            width:93%;
+            height:280px;
+            margin-left:42px;
+        }
+        .textArea5 h1{
+            color:#3d4449;
+            margin-top:30px;
+            font-size: 20px;
+            }
+            .textArea5 p{
+                color:#7f888f;
+                font-size:19px
+            }
+            #button5{
+                width:90px;
+                height:35px;
+                border:2px solid #f56a6a;
+                border-radius: 8px;
+                color: #f56a6a;
+                text-align: center;
+                line-height: 33px;
+                margin-top:30px;
+            
+            }
+            #button5 a:link{
+                text-decoration: none;
+                color:#f56a6a;
+            }
