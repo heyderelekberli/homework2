@@ -63,6 +63,9 @@ background-color:#ebebeb;
     color:#7f888f;
   
 }
+.menuPart>ul>li>a:visited{
+    color:#7f888f;
+}
 .menuPart ul li a:hover{
     color:#f56a6a;
 }

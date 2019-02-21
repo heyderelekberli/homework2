@@ -1,0 +1,178 @@
+header{
+    width:100%;
+    height:50px;
+    padding-top:20px;
+}
+header>i{
+    color: #f56a6a;
+    font-size: 30px;
+    padding-left:20px;
+}
+header>a:link{
+    color: #f56a6a;
+    font-size:30px;
+    padding-left:20px;
+
+}
+header>a:visited{
+    color: #f56a6a;
+}
+main{
+    width:80%;
+    height:2500px;
+    margin:auto;
+}
+.head{
+display:flex;
+justify-content: space-between;
+border-bottom:4px solid  #f56a6a;
+
+}
+.head a:link{
+text-decoration: none;
+color:black;
+font-family: "Roboto Slab"
+}
+.head a{
+    display:flex;
+}
+.head p{
+    margin-top:20px;
+    margin-left:5px;
+    font-size:19px;
+    
+}
+
+
+.head a:hover{
+    color:  #f56a6a;
+}
+#icons>li{
+float:left;
+list-style-type:none;
+margin-left:10px;
+}
+#icons>li>a:link{
+    color:#7f888f;
+text-decoration:none;
+}
+#icons>li>a:hover{
+color: #f56a6a;
+}
+.content1{
+    width:100%;
+    height:470px;
+}
+.content1 h1{
+    font-size:40px;
+    color:#3d4449;
+    margin-top:40px;
+}
+.content1 img{
+    border:1px solid white;
+    width:100%;
+    border-radius: 7px;
+}
+.content2{
+    width:100%;
+    height:470px;
+
+}
+.top{
+width:100%;
+height:130px;
+color: #7f888f;
+font-size:21px;
+}
+.center{
+width:100%;
+height:170px;
+color: #7f888f;
+font-size:21px;
+}
+.bottom{
+width:100%;
+height:130px;
+color: #7f888f;
+font-size:21px;
+}
+.borderTop{
+    width:100;
+    height:1px;
+    background-color: #7f888f;
+}
+.content3{
+    width:100%;
+    height:470px;
+}
+.content3>div>h1{
+    font-size:20px;
+    color:#3d4449;
+    margin-top:50px;
+}
+.firstText{
+width:100%;
+height:130px;
+color: #7f888f;
+font-size:21px;
+}
+.secondText{
+    width:100%;
+    height:170px;
+    color: #7f888f;
+    font-size:21px;
+}
+.borderCenter{
+    width:100%;
+    height:1px;
+    background-color: #7f888f;
+}
+.content4{
+    width:100%;
+    height:370px;
+}
+.content4>div>h1{
+    font-size:20px;
+    color:#3d4449;
+    margin-top:20px;
+}
+.firstText1{
+width:100%;
+height:170px;
+color: #7f888f;
+font-size:21px;
+margin-bottom:20px;
+}
+.secondText1{
+    width:100%;
+    height:170px;
+    color: #7f888f;
+    font-size:21px;
+}
+.borderBottom{
+    width:100%;
+    height:1px;
+    background-color: #7f888f;
+}
+.content5{
+    width:100%;
+    height:370px;
+}
+.content5>div>h1{
+    font-size:20px;
+    color:#3d4449;
+    margin-top:20px;
+}
+.firstText2{
+width:100%;
+height:125px;
+color: #7f888f;
+font-size:21px;
+margin-bottom:20px;
+}
+.secondText2{
+    width:100%;
+    height:170px;
+    color: #7f888f;
+    font-size:21px;
+}
